@@ -6,7 +6,7 @@ git clone https://github.com/jayhawkins108/CLGMNI /opt/clgmni
 cd /opt/clgmni
 
 # Install requirements
-pip3 install -r requirements.txt --break-system-packages
+pip3 install -r requirements.txt --ignore-installed typing_extensions --break-system-packages
 
 # Create the wrapper script pointing to CLGMNI.py
 echo '#!/bin/bash' > /usr/local/bin/clgmni
