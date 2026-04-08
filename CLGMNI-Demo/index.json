@@ -1,0 +1,10 @@
+{
+  "title": "CLGMNI AI Agent Demo",
+  "description": "Try the CLGMNI Python AI Agent in a live terminal.",
+  "details": {
+    "steps": [{ "title": "Run your first AI command", "text": "step1.md" }],
+    "intro": { "text": "intro.md", "background": "background.sh" },
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}
